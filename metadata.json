@@ -1,0 +1,6 @@
+{
+  "name": "Student Registration System",
+  "description": "Student Registration and EMIS Data Management System for Kitesa Negasa Feyisa with multi-school support, statistics, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
