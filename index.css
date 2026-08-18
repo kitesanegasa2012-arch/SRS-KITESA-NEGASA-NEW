@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+    margin: 0 !important;
+    padding: 10mm !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .print\:block {
+    display: block !important;
+  }
+
+  .overflow-x-auto, .overflow-hidden, .overflow-y-auto {
+    overflow: visible !important;
+  }
+
+  .shadow-sm, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl {
+    box-shadow: none !important;
+  }
+
+  button, input, select {
+    display: none !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 10pt !important;
+  }
+
+  th, td {
+    border: 1px solid #333 !important;
+    padding: 6px 8px !important;
+    color: black !important;
+    background-color: transparent !important;
+  }
+
+  thead {
+    background-color: #f1f5f9 !important;
+    color: black !important;
+  }
+
+  tfoot {
+    background-color: #e2e8f0 !important;
+    color: black !important;
+    font-weight: bold !important;
+  }
+}
+
